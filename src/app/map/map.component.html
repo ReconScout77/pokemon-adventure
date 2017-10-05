@@ -1,0 +1,70 @@
+
+<div class="map-face">
+  <div class="absoluteContainer">
+    <img src="../assets/images/map.jpg" alt="">
+
+    <div class="app-my-pokemon">
+
+      <app-my-pokemon></app-my-pokemon>
+
+    </div>
+  </div>
+
+  <div class="habitat" *ngIf="habitats">
+    <div class="row">
+          <button type="button" name="button" class="btn btn-warning home" (click)="stopSong()" routerLink="/home">Go Home</button>
+      <div class="col-md-6"></div>
+      <h1 (click)="goToHabitat(habitats[4])">{{habitats[4].name}}</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <h1 (click)="goToHabitat(habitats[5])">{{habitats[5].name}}</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8"></div>
+      <h1 (click)="goToHabitat(habitats[8])">{{habitats[8].name}}</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <h1 (click)="goToHabitat(habitats[2])">{{habitats[2].name}}</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-9"></div>
+      <h1 (click)="goToHabitat(habitats[7])">{{habitats[7].name}}</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6"></div>
+      <h1 (click)="goToHabitat(habitats[3])">{{habitats[3].name}}</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5"></div>
+      <h1 (click)="goToHabitat(habitats[0])">{{habitats[0].name}}</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3"></div>
+      <h1 (click)="goToHabitat(habitats[1])">{{habitats[1].name}}</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <h1 (click)="goToHabitat(habitats[6])">{{habitats[6].name}}</h1>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+<!-- <div>
+  <div *ngFor="let habitat of habitats" >
+    <h1 (click)="goToHabitat(habitat)">{{habitat.name}}</h1>
+  </div>
+</div> -->

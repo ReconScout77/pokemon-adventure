@@ -1,0 +1,85 @@
+.equipped-pokemon{
+
+  background-color: #d1d1d1;
+
+  z-index: -1;
+
+}
+
+
+
+.card{
+  display: inline-block;
+  padding: 15px;
+  margin: 5px;
+  width: 180px;
+  top: 0;
+  background-color:#ededed;
+  height: 310px;
+}
+.card-title{
+  text-align: center;
+  font-size: 1em;
+}
+.card:hover{
+  border: 1px solid grey;
+}
+.trainerHeader{
+  background-color: silver;
+
+  text-align: center;
+}
+.card-img-top{
+  height: 130px;
+}
+.trainerImg{
+  height: 150px;
+  padding-left: 30px;
+}
+.card-equipped{
+  max-width: 180px;
+}
+.isEquipped{
+  background-color: #fffde2;
+  text-align: center;
+}
+.swap{
+  background-color: #d1e2ff;
+  text-align: center;
+}
+.swap:hover{
+  background-color: #94bbfc;
+}
+.notEquipped{
+  background-color: #e2ffe2;
+}
+.isEquipped:hover{
+    cursor: pointer;
+}
+.notEquipped:hover{
+    cursor: pointer;
+}
+.equipped-header{
+  font-size: 1em;
+  margin: 10px;
+}
+.show-all-btn{
+  font-size: 2em;
+  text-align: center;
+  display: block;
+}
+.btns{
+  padding: 5px;
+}
+.btn:hover{
+  cursor: pointer;
+}
+.swap{
+
+}
+
+h1 {
+
+  text-align: center;
+  padding: 10px;
+}
